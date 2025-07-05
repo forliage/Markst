@@ -1,0 +1,12 @@
+[dependencies]
+# 用于构建强大、快速、用户友好的命令行应用
+clap = { version = "4.4", features = ["derive"] }
+
+# 用于处理 Markdown 解析
+pulldown-cmark = "0.9"
+
+# 用于定义自定义错误类型，使错误处理更清晰
+thiserror = "1.0"
+
+# 用于简化应用程序级别的错误处理链
+anyhow = "1.0"
